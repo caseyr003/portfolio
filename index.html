@@ -4,20 +4,39 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-
       <title>Casey Ross | Full Stack Web Developer</title>
-
       <!-- Add CSS -->
-      <link href="css/min/app.min.css" rel="stylesheet">
-
+      <!-- <link href="css/min/app.min.css" rel="stylesheet"> -->
+      <link href="css/style.css" rel="stylesheet">
+      <link href="css/bootstrap.css" rel="stylesheet">
    </head>
    <body>
+      <nav class="navbar-fixed-top navbar-default">
+         <div class="container-fluid">
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="http://casedev.co/">iOS Apps</a></li>
+               </ul>
+               <ul class="nav navbar-nav navbar-right">
+                  <li><a href="https://github.com/caseyr003">Github</a></li>
+                  <li><a href="https://www.linkedin.com/in/casey003/">LinkedIn</a></li>
+                  <li><a href="mailto:caseyross003@gmail.com">Email</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
       <div class="container">
          <div class="row">
-            <div class="col-md-4">
-               <img src="http://casedev.co/img/logo-home.png">
-            </div>
-            <div class="col-md-8">
+            <div class="col-md-12 title">
+               <img class="logo" src="img/logo.png">
                <h1>Casey Ross</h1>
                <h3>Full Stack Web Developer</h3>
             </div>
@@ -27,7 +46,7 @@
       <div class="container">
          <div class="row">
             <div class="col-md-12">
-               <h1>Image</h1>
+               <img class="main-img" src="img/main.png" alt="Developer's desk background">
             </div>
          </div>
       </div>
@@ -37,26 +56,43 @@
                <h2>Featured Work</h2>
             </div>
          </div>
-         <div class="row">
-            <div class="col-md-4">
-               <h1>image</h1>
-               <h4>TITLE</h4>
-               <a>link</a>
+         <div class="row features">
+            <div class="col-md-3 feature-block">
+               <div class="feature-img" style="background-image: url(img/topten.png)"></div>
+               <div class="feature-info">
+                  <h4>Top Ten Movies</h4>
+                  <p>This project consists of server-side code to store a favorites list of movies.
+                     The movies are then served as a web page allowing visitors to see relevant movie
+                     information and watch trailers.
+                     Download <a href="https://github.com/caseyr003/TopTenFilms">here</a></p>
+               </div>
             </div>
-            <div class="col-md-4">
-               <h1>image</h1>
-               <h4>TITLE</h4>
-               <a>link</a>
+            <div class="col-md-3 feature-block">
+               <div class="feature-img" style="background-image: url(img/leapfrog.png)"></div>
+               <div class="feature-info">
+                  <h4>Leap Frog</h4>
+                  <p>This is a starter iOS project written in Swift where users try to take over the pond in an othello
+                     type game. Download the starter project and add your own personal touch to the game.
+                     Download <a href="https://github.com/caseyr003/LeapFrog">here</a></p>
+               </div>
             </div>
-            <div class="col-md-4">
-               <h1>image</h1>
-               <h4>TITLE</h4>
-               <a>link</a>
+            <div class="col-md-3 feature-block">
+               <div class="feature-img" style="background-image: url(img/lifehacks.png)"></div>
+               <div class="feature-info">
+                  <h4>Life Hacks</h4>
+                  <p>An iOS application written in objective-C that allows users to watch a set of YouTube videos. It uses YouTube's iframe to display the video so that user's can watch it
+                     directly from the app.
+                     Download <a href="https://github.com/caseyr003/LifeHacks">here</a></p>
+               </div>
             </div>
          </div>
       </div>
-
-
+      <footer>
+         <h2>Thanks for checking out my portfolio!</h2>
+         <h4>This project was created as part of Udacity's Full Stack Developer Nanodegree</h4>
+         <h5>Feel free to connect with me below</h5>
+         <a href="https://github.com/caseyr003">Github</a> | <a href="https://www.linkedin.com/in/casey003/">LinkedIn</a> | <a href="mailto:caseyross003@gmail.com">Email</a>
+      </footer>
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
       <!-- Add JS -->
