@@ -1,38 +1,79 @@
 * {
    color: #7c7c7c;
 }
+
 body {
    padding-top: 80px;
 }
-h2 {
 
-}
 hr {
-   margin: 20px 8%;
+   margin: 30px 0;
    border-top: 2px solid #359FD0 !important;
 }
+
+
+/* Navbar */
 .navbar-fixed-top {
    padding-left: 40px;
    padding-right: 40px;
 }
+
 .navbar-fixed-top a: hover {
    background-color: transparent;
    text-decoration: overline;
 }
+
+
+/* Header */
 .logo {
    max-height: 140px;
    width: auto;
    float: left;
 }
+
 .title {
    text-align: right;
 }
+
 .title h1 {
    font-size: 68px;
 }
+
 .title h3 {
    font-weight: lighter;
 }
+
+@media (max-width: 500px) {
+   .title {
+      text-align: center;
+   }
+
+   .logo {
+      display: block;
+      margin: 0 auto;
+      float: none;
+   }
+}
+
+
+/* Main Image */
+.main-img{
+   display: block;
+   margin: 0 auto;
+   width: 80%;
+   height: auto;
+   border-radius: 8px;
+   box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.5);
+}
+
+@media (max-width: 500px) {
+   .main-img {
+      width: 100%;
+   }
+}
+
+
+/* Main Content */
 .features .feature-block {
    padding: 0;
    margin: 20px;
@@ -43,10 +84,12 @@ hr {
    color: #000;
    transition: all 0.3s ease;
 }
+
 .features .feature-block:hover {
    box-shadow: 8px 10px 20px 0px rgba(46,61,73,0.25);
    cursor: pointer;
 }
+
 .feature-img {
    padding: 0;
    margin: 0;
@@ -58,33 +101,48 @@ hr {
    border-top-right-radius: 8px;
    border-top-left-radius: 8px;
 }
+
 .feature-info {
    padding: 10px 20px;
 }
+
 .feature-info h4 {
    color: #444;
 }
-.main-img{
-   margin: 0 10% 50px 10%;
-   width: 80%;
-   height: auto;
-   border-radius: 8px;
-   box-shadow: 2px 4px 8px 0px rgba(46,61,73,0.5);
+
+.topten-img {
+   background-image: url("../../img/topten.png");
 }
+
+.leapfrog-img {
+   background-image: url("../../img/leapfrog.png");
+}
+
+.lifehacks-img {
+   background-image: url("../../img/lifehacks.png");
+}
+
+
+/* Footer */
 footer {
    margin-top: 60px;
    padding: 60px 20px;
-   color: #ffffff;
    background-color: #b2b2b2;
    text-align: center;
    min-height: 200px;
 }
-@media (max-width: 500px) {
-   .title {
-      text-align: left;
-   }
-   .main-img{
-      margin: 0 10px 50px 10px;
-      width: 100%;
-   }
+
+footer h2,
+footer h4,
+footer h5 {
+   color: #fff;
+}
+
+footer ul {
+   list-style: none;
+}
+
+footer li {
+   display: inline;
+   padding: 10px;
 }

@@ -4,11 +4,16 @@
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <!-- Title -->
       <title>Casey Ross | Full Stack Web Developer</title>
+
       <!-- Add CSS from minified file -->
       <link href="css/min/app.min.css" rel="stylesheet">
    </head>
+
    <body>
+
       <!-- Navbar -->
       <nav class="navbar-fixed-top navbar-default">
          <div class="container-fluid">
@@ -19,32 +24,36 @@
                   <span class="icon-bar"></span>
                </button>
             </div>
+
             <div class="collapse navbar-collapse" id="myNavbar">
                <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Home</a></li>
-                  <li><a href="http://casedev.co/">iOS Apps</a></li>
+                  <li><a href="http://casedev.co/" target="_blank">iOS Apps</a></li>
                </ul>
+
                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="https://github.com/caseyr003">Github</a></li>
-                  <li><a href="https://www.linkedin.com/in/casey003/">LinkedIn</a></li>
+                  <li><a href="https://github.com/caseyr003" target="_blank">Github</a></li>
+                  <li><a href="https://www.linkedin.com/in/casey003/" target="_blank">LinkedIn</a></li>
                   <li><a href="mailto:caseyross003@gmail.com">Email</a></li>
                </ul>
             </div>
          </div>
       </nav>
       <!-- End Navbar -->
+
       <!-- Header -->
-      <div class="container">
+      <header class="container">
          <div class="row">
             <div class="col-md-12 title">
-               <img class="logo" src="img/logo.png">
+               <img class="logo" src="img/logo.png" alt="breifcase logo">
                <h1>Casey Ross</h1>
                <h3>Full Stack Web Developer</h3>
+               <hr>
             </div>
          </div>
-      </div>
+      </header>
       <!-- End Header -->
-      <hr>
+
       <!-- Main Image -->
       <div class="container">
          <div class="row">
@@ -54,55 +63,68 @@
          </div>
       </div>
       <!-- End Main Image -->
+
       <!-- Feature Section -->
-      <div class="container">
-         <div class="row">
+      <main class="container">
+         <div class="row features">
             <div class="col-md-12">
                <h2>Featured Work</h2>
             </div>
-         </div>
-         <div class="row features">
-            <div class="col-md-3 feature-block">
-               <div class="feature-img" style="background-image: url(img/topten.png)"></div>
+
+            <article class="col-md-3 feature-block">
+               <div class="feature-img topten-img"></div>
                <div class="feature-info">
                   <h4>Top Ten Movies</h4>
                   <p>This project consists of server-side code to store a favorites list of movies.
                      The movies are then served as a web page allowing visitors to see relevant movie
                      information and watch trailers.
-                     Download <a href="https://github.com/caseyr003/TopTenFilms">here</a></p>
+                     Download <a href="https://github.com/caseyr003/TopTenFilms" target="_blank">here</a></p>
                </div>
-            </div>
-            <div class="col-md-3 feature-block">
-               <div class="feature-img" style="background-image: url(img/leapfrog.png)"></div>
+            </article>
+
+            <article class="col-md-3 feature-block">
+               <div class="feature-img leapfrog-img"></div>
                <div class="feature-info">
                   <h4>Leap Frog</h4>
                   <p>This is a starter iOS project written in Swift where users try to take over the pond in an othello
                      type game. Download the starter project and add your own personal touch to the game.
-                     Download <a href="https://github.com/caseyr003/LeapFrog">here</a></p>
+                     Download <a href="https://github.com/caseyr003/LeapFrog" target="_blank">here</a></p>
                </div>
-            </div>
-            <div class="col-md-3 feature-block">
-               <div class="feature-img" style="background-image: url(img/lifehacks.png)"></div>
+            </article>
+
+            <article class="col-md-3 feature-block">
+               <div class="feature-img lifehacks-img"></div>
                <div class="feature-info">
                   <h4>Life Hacks</h4>
                   <p>An iOS application written in objective-C that allows users to watch a set of YouTube videos. It uses YouTube's iframe to display the video so that user's can watch it
                      directly from the app.
-                     Download <a href="https://github.com/caseyr003/LifeHacks">here</a></p>
+                     Download <a href="https://github.com/caseyr003/LifeHacks" target="_blank">here</a></p>
                </div>
+            </article>
+         </div>
+      </main>
+      <!-- End Feature Section -->
+
+      <!-- Footer -->
+      <footer class="container-fluid">
+         <div class="row">
+            <div class="col-md-12">
+               <h2>Thanks for checking out my portfolio!</h2>
+               <h4>This project was created as part of Udacity's Full Stack Developer Nanodegree</h4>
+               <h5>Feel free to connect with me below</h5>
+               <ul>
+                  <li><a href="https://github.com/caseyr003" target="_blank">Github</a></li>
+                  <li><a href="https://www.linkedin.com/in/casey003/" target="_blank">LinkedIn</a></li>
+                  <li><a href="mailto:caseyross003@gmail.com">Email</a></li>
+               </ul>
             </div>
          </div>
-      </div>
-      <!-- End Feature Section -->
-      <!-- Footer -->
-      <footer>
-         <h2>Thanks for checking out my portfolio!</h2>
-         <h4>This project was created as part of Udacity's Full Stack Developer Nanodegree</h4>
-         <h5>Feel free to connect with me below</h5>
-         <a href="https://github.com/caseyr003">Github</a> | <a href="https://www.linkedin.com/in/casey003/">LinkedIn</a> | <a href="mailto:caseyross003@gmail.com">Email</a>
       </footer>
       <!-- End Footer -->
+
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
       <!-- Add JS From minified file -->
       <script src="js/min/app.min.js"></script>
    </body>
