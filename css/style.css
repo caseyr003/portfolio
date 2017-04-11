@@ -122,6 +122,18 @@ hr {
    background-image: url("../../img/lifehacks.png");
 }
 
+.tournament-img {
+   background-image: url("../../img/tournament.png");
+}
+
+.blog-img {
+   background-image: url("../../img/blog.png");
+}
+
+.outdoor-img {
+   background-image: url("../../img/outdoor.png");
+}
+
 
 /* Footer */
 footer {
